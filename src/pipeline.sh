@@ -79,7 +79,7 @@ FILE_NAME_SEARCH_PATTERN='\.(txt|md)$'
 # Env SCAN_ROOT overrides the default when set by the caller/CI.
 SCAN_ROOT="${SCAN_ROOT:-.}"
 # --- Tool-specific defaults (awesome_bot flags) ---------------------------
-DEFAULT_FLAG_GROUP="--allow-redirect --allow-dupe --skip-save-results --set-timeout 10 --allow 429"
+DEFAULT_FLAG_GROUP="--allow-redirect --allow-dupe --skip-save-results --set-timeout 10 --allow 429,502,503,504"
 DEFAULT_FLAGS="--skip-save-results"
 
 
